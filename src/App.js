@@ -84,7 +84,7 @@ export default function App() {
   return (
     // output design structure
     <div className="App">
-      <h1>Hello Emojiii !!</h1>
+      <h1> 😎 Hello Emojiii !! 😎 </h1>
       <p style={{ fontWeight: "normal" }}>
         You can also Enter an emoji here or click on any emoji !!
       </p>
