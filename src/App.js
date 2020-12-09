@@ -52,7 +52,7 @@ const emojidivstyle = {
   border: "1px none ",
   backgroundColor: "#F0E68C",
   fontWeight: "800",
-  padding: "1rem",
+  padding: "12px",
   borderRadius: "1rem"
 };
 
@@ -84,7 +84,7 @@ export default function App() {
   return (
     // output design structure
     <div className="App">
-      <h1> 😎 Hello Emojiii !! 😎 </h1>
+      <h1> 😎 Hello Emojiii !! 😎</h1>
       <p style={{ fontWeight: "normal" }}>
         You can also Enter an emoji here or click on any emoji !!
       </p>
@@ -97,7 +97,7 @@ export default function App() {
 
       <h3 style={{ color: "yellow" }}> Emoji's We Have </h3>
 
-      <div style={emojidivstyle}>
+      <div style={emojidivstyle} className="emojibgc">
         {emojis.map((emoji) => (
           <span
             onClick={() => emojiClickHandler(emoji)}
